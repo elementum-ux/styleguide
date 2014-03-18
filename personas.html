@@ -1,0 +1,80 @@
+<div id="portfolioSheetWrapper">
+
+    <header id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h1>Personas</h1>
+                </div>
+                <div class="col-md-2">
+                    <a href="javascript:$.pageslide.close()" class="btn pull-right"><i class="icon-cancel-outline"></i>Close</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <section class="content">
+        <div class="container">
+            
+    <section class="mb40 row">
+        <div class="col-md-12">
+            <h2><span>Section name</span></h2>
+        </div>
+    </section>
+</div>
+</section>
+
+<!-- end main content -->
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-md-offset-10">
+                <a href="javascript:$.pageslide.close()" class="btn pull-right"><i class="icon-cancel-outline"></i>Close</a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+<script type="text/javascript">
+$(function () {
+
+
+    $('#bTab a').click(function (e) {
+        $(this).tab('show');
+        e.preventDefault();
+    });
+
+    $('.dropdown-toggle').dropdown();
+
+    $('.dropdown-menu a').click(function (e) {
+        $('li.active').removeClass('open');
+        e.preventDefault();
+    });
+
+
+    $(".accordion-toggle").click(function (e) {
+        var $target = $(this).parent().parent().parent().find('.panel-collapse');
+
+        if($target.hasClass('in')){
+            $target.collapse('hide'); 
+        }else{
+            $('.panel-collapse.in').collapse('hide');
+            $target.collapse('show');
+        }
+        e.preventDefault();
+    });
+
+    $('.close').click(function (e) {
+        $(this).parent('.alert').alert('close');
+        e.preventDefault();
+    });
+
+});  
+
+
+</script>
