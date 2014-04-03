@@ -1,4 +1,4 @@
-var mess = new Array('IF YOU DON&#8217;T HAVE PEOPLE HATING YOU, YOU&#8217;RE DOING SOMETHING WRONG.<br/><small>CREATIVE DIRECTOR or KANYE WEST</small>','YOU HAVE TO DO ONE REALLY GOOD THING EVERY YEAR.<br/><small>CREATIVE DIRECTOR or KANYE WEST</small>','I BELIEVE IN MYSELF LIKE A FIVE-YEAR-OLD BELIEVES IN HIMSELF.<br/><small>CREATIVE DIRECTOR or KANYE WEST</small>','KILL IT AND BILL IT.<br/><small>CREATIVE DIRECTOR or KANYE WEST</small>');
+var mess = new Array('You can&#8217;t marry nine women<br/>and have a baby in a month<br/><small>DOMINIC VIA DANA</small>','You can only make so many mistakes<br/>before you run out of mistakes.<br/><small>MIGUEL</small>','You can&#8217;t be half pregnant.<br/><small>NATHAN</small>','Grrr, WOOF!<br/><small>PANDA</small>');
 var max = mess.length;
 var num = Math.floor((Math.random() * max));
 document.writeln(mess[num]);
