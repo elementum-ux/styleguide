@@ -1,4 +1,4 @@
-var mess = new Array('You can&#8217;t marry nine women<br/>and have a baby in a month<br/><small>DOMINIC VIA DANA</small>','You can only make so many mistakes<br/>before you run out of mistakes.<br/><small>MIGUEL</small>','You can&#8217;t be half pregnant.<br/><small>NATHAN</small>','Grrr, WOOF!<br/><small>PANDA</small>');
+var mess = new Array('Think outside the &#62;div&#60;<br/><small>KRISTOF ORTS</small>','Users will tell you what they think they want.<br/>Users will tell you what they think you want to hear.<br/>Users will tell you what they think sounds good.<br/>Users will not tell you what you need to know.<br/>You have to watch them to discover that.<br/><small>ADAM JUDGE</small>','No matter how cool your interface is,<br/>it would be better if there were less of it.<br/><small>ALAN COOPER</small>','A beef filet cooked for 15 hours by 30 cooks doesn’t necessarily taste better than a cheeseburger.<br/><small>OLIVER REICHENSTEIN</small>');
 var max = mess.length;
 var num = Math.floor((Math.random() * max));
 document.writeln(mess[num]);
