@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 99 99" enable-background="new 0 0 99 99" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="14.4983" y1="14.4982" x2="84.5018" y2="84.5018">
+	<stop  offset="0" style="stop-color:#3D9EBC"/>
+	<stop  offset="1" style="stop-color:#1B9EBC"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" cx="49.5" cy="49.5" r="49.5"/>
+<path opacity="0.2" fill="#231F20" d="M45,76.2c-6.7-1.2-17-5.2-17-5.2l27.7,27.7C78,95.8,95.8,78.1,98.6,55.8L71.2,28.4l1,2.8
+	c0,0,4.2,5.6,5.2,11.7c0.7,4.1-0.2,11-2.6,17.2L57.2,42.4l-14.7,15l17.3,17.3C54.5,76.5,48.8,76.8,45,76.2z M45.9,56.7l11-10.8
+	L62,62.3L45.9,56.7z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="71.6973" y1="71.7998" x2="27.9408" y2="28.0433">
+	<stop  offset="0.34" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.4244" style="stop-color:#FFF4F5"/>
+	<stop  offset="0.5778" style="stop-color:#FFE5E7"/>
+	<stop  offset="0.5799" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M49.5,79.9c-16.7,0-30.3-13.6-30.3-30.3c0-16.7,13.6-30.3,30.3-30.3s30.3,13.6,30.3,30.3
+	C79.8,66.3,66.2,79.9,49.5,79.9z M49.5,23.4c-14.4,0-26.2,11.7-26.2,26.2c0,14.4,11.7,26.2,26.2,26.2S75.7,64,75.7,49.6
+	C75.7,35.2,63.9,23.4,49.5,23.4z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="71.7391" y1="71.7579" x2="27.9827" y2="28.0015">
+	<stop  offset="0.34" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.4244" style="stop-color:#FFF4F5"/>
+	<stop  offset="0.5778" style="stop-color:#FFE5E7"/>
+	<stop  offset="0.5799" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path fill="url(#SVGID_3_)" d="M57.2,42.4L57.2,42.4L35,35l0,0l7.5,22.4l0,0l22.2,7.4l0,0L57.2,42.4z M48.2,56l7.7-7.8l3.9,11.7
+	L48.2,56z"/>
+</svg>
