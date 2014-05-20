@@ -61,7 +61,10 @@ h2.subTitle:after, h1.noSubtitle:after{
 .paralaxText blockquote:before, .paralaxText blockquote:after {
 	color:#fff;
 }
-#home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
+#home {
+	background-color:#1BA8C6;
+}
+#paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
 	background-color:#000;
 }
 #home {
