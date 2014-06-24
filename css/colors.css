@@ -73,7 +73,7 @@ h2.subTitle:after, h1.noSubtitle:after{
 #sitrm {
 	background-image:url('../images/theme-pics/paralax-1.jpg');
 	max-width: 1140px;
-	max-height: 300px;
+	min-height: 300px;
 }
 #paralaxSlice1 {
 	background-image: url('../images/theme-pics/paralax-1.jpg');
