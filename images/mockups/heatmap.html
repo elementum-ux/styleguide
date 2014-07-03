@@ -554,29 +554,27 @@ function toggleHeatmap() {
 function changeGradient() {
   var gradient = [
     'rgba(0, 0, 0, 0)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)',
-    'rgb(25, 158, 188)'
+   'rgb(25, 158, 188)',
+   'rgb(25, 158, 188)',
+   'rgb(25, 158, 188)',
+   'rgb(25, 158, 188)',
+   'rgb(25, 158, 188)',
+   'rgb(25, 158, 188)',
+   'rgb(25, 158, 188)',
+   'rgb(0, 129, 158)',
+   'rgb(0, 129, 158)',
+   'rgb(0, 129, 158)',
+   'rgb(0, 129, 158)'
   ]
   heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 }
 
 function changeRadius() {
-  heatmap.set('radius', heatmap.get('radius') ? null : 20);
+  heatmap.set('radius', heatmap.get('radius') ? null : 18);
 }
 
 function changeOpacity() {
-  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
+  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.4);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
