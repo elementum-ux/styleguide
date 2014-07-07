@@ -532,8 +532,162 @@ function initialize() {
   var mapOptions = {
     zoom: 13,
     center: new google.maps.LatLng(37.774546, -122.433523),
-    mapTypeId: google.maps.MapTypeId.SATELLITE
-  };
+    mapTypeId: "roadmap",
+
+  "styles": [
+    {
+      "featureType": "water",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "color": "#ededed"
+        }
+      ]
+    },
+    {
+      "featureType": "landscape",
+      "elementType": "geometry.fill",
+      "stylers": [
+        {
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "featureType": "administrative.country",
+      "elementType": "geometry.stroke",
+      "stylers": [
+        {
+          "color": "#909090"
+        },
+        {
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "featureType": "administrative.country",
+      "elementType": "labels.text.fill",
+      "stylers": [
+        {
+          "color": "#909090"
+        }
+      ]
+    },
+    {
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "poi",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "water",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "transit",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "landscape",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "administrative.land_parcel",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "administrative.province",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "administrative.locality",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "administrative.neighborhood",
+      "elementType": "labels",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "road",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "poi",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    },
+    {
+      "featureType": "transit",
+      "elementType": "geometry",
+      "stylers": [
+        {
+          "visibility": "off"
+        }
+      ]
+    }
+  ],
+  "streetViewControl": false,
+  "panControl": false,
+  "zoomControl": false,
+  "mapTypeControl": false
+}
 
   map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
@@ -553,18 +707,25 @@ function toggleHeatmap() {
 
 function changeGradient() {
   var gradient = [
-    'rgba(0, 0, 0, 0)',
-   'rgb(25, 158, 188)',
-   'rgb(25, 158, 188)',
-   'rgb(25, 158, 188)',
-   'rgb(25, 158, 188)',
-   'rgb(25, 158, 188)',
-   'rgb(25, 158, 188)',
-   'rgb(25, 158, 188)',
-   'rgb(0, 129, 158)',
-   'rgb(0, 129, 158)',
-   'rgb(0, 129, 158)',
-   'rgb(0, 129, 158)'
+      'rgba(0, 0, 0, 0)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(24, 223, 255)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)',
+      'rgb(23, 194, 222)'
   ]
   heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 }
@@ -574,7 +735,7 @@ function changeRadius() {
 }
 
 function changeOpacity() {
-  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.4);
+  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
