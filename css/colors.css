@@ -87,6 +87,9 @@ h2.subTitle:after, h1.noSubtitle:after{
 #paralaxSliceMobile {
 	background-image: url('../images/theme-pics/paralax-mobile.jpg');
 }
+#paralaxSliceWeb {
+	background-image: url('../images/theme-pics/paralax-web.jpg');
+}
 #paralaxSlice3 {
 	background-image: url('../images/theme-pics/paralax-blue-3.jpg');
 }
