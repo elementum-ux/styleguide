@@ -465,6 +465,34 @@ border:none}
 	background:#fff;
 }
 
+/*color5*/
+.color5, .slice.color5, .bulle.color5, .ctaBox.color5{
+	background-color:#F25316;
+	color:#fff;
+}
+
+.color5 h1, .color5 h2, .color5 h3, .color5 h4, .color5 blockquote, .color5 a {
+	color:#fff;
+}
+
+.color5 h2.subTitle:after, .color5 h1.noSubtitle:after {
+	background:#fff;
+}
+
+/*color6*/
+.color6, .slice.color6, .bulle.color6, .ctaBox.color6{
+	background-color:#2ECB7F;
+	color:#fff;
+}
+
+.color6 h1, .color6 h2, .color6 h3, .color6 h4, .color6 blockquote, .color6 a {
+	color:#fff;
+}
+
+.color6 h2.subTitle:after, .color6 h1.noSubtitle:after {
+	background:#fff;
+}
+
 /*** icons ***/
 .iconRounded {border:2px solid #1cbbda;color:#1cbbda;background-color:#fff;}
 .iconRounded:hover, .color1 .iconRounded:hover{background-color:#1cbbda;color:#fff;}
