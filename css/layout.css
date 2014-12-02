@@ -431,9 +431,9 @@ hr {
 	font-size:22px;
 }
 .btn-sm {
-	padding:10px 13px;
+	padding:10px 30px;
 	font-size:12px;
-	border-radius:4px;
+	/*border-radius:4px;*/
 }
 .btn-xs {
 	padding:4px 7px;
