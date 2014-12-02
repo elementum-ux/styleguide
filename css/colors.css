@@ -211,6 +211,11 @@ ul.iconsList li a:hover, ul.iconsList i {
 	border:1px solid #ccc;
 }
 
+.disabled {
+	color: #a3a3a3;
+	background: #c5c3c3;
+}
+
 /* END LINKS AND BUTTONS
 ================================================== */
 
