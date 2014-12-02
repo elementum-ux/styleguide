@@ -176,10 +176,10 @@ ul.iconsList li a:hover, ul.iconsList i {
 	border:2px solid #fff;
 }
 .btn:hover {
-	color:#fff;
+	color:#1cbbda;
 	border-color:#eee;
 	text-shadow:none;
-	background:#05373f
+	background:#fff
 }
 .btn-primary {
 	background: #006dcc;
