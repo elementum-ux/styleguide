@@ -175,12 +175,26 @@ ul.iconsList li a:hover, ul.iconsList i {
 	color:#fff;
 	border:2px solid #fff;
 }
+
 .btn:hover {
 	color:#fff;
 	border-color:#eee;
 	text-shadow:none;
 	background:#05373f
 }
+
+.btn-secondary {
+	background:#959595;
+	color:#fff;
+	border:2px solid #fff;
+}
+
+.btn-secondary:hover {
+	background:#484949;
+	color:#fff;
+	border:2px solid #fff;
+}
+
 .btn-primary {
 	background: #006dcc;
 }

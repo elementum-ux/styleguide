@@ -426,6 +426,19 @@ hr {
 	-ms-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	}
+
+.btn-secondary {
+	/*text-transform:uppercase;*/
+	font-weight:600;
+	padding:10px 45px;
+	font-size:14px;
+	 -webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	}
+
 .btn-lg {
 	padding:18px 23px;
 	font-size:22px;
