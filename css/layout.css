@@ -417,8 +417,8 @@ hr {
 /*** buttons ***/
 .btn {
 	/*text-transform:uppercase;*/
-	font-weight:500;
-	padding:15px 20px;
+	font-weight:600;
+	padding:12px 30px;
 	font-size:14px;
 	 -webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
