@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 99 99" enable-background="new 0 0 99 99" xml:space="preserve">
+<g id="icons">
+	<g>
+		<g>
+			<polygon fill="none" points="27.9,36.4 21.8,58.1 33.9,63.7 37,40.6 			"/>
+			<path fill="none" d="M62.6,40.6l3.1,23.1l3.1-1.4c-0.8-1.3-1.2-2.9-1.2-4.5c0-4.5,3.4-8.2,7.7-8.7l-3.6-12.6L62.6,40.6z"/>
+			<polygon fill="none" points="36.2,63.4 48.7,57.7 48.7,36.4 39.2,40.8 			"/>
+			<polygon fill="none" points="50.9,36.4 50.9,57.7 63.5,63.4 60.5,40.8 			"/>
+			<path fill="#231F20" d="M68.8,62.3l-3.1,1.4l-3.1-23.1l9.1-4.2L75.3,49c0.4,0,0.7-0.1,1.1-0.1c1,0,1.9,0.2,2.8,0.5l-4.5-16.1
+				l-0.6-2.1l-1.9,0.9l-10.8,4.9l-10.8-4.9l-0.8-0.4l-0.8,0.4l-10.8,4.9l-10.8-4.9l-1.9-0.9L25,33.4l-7.1,25.3l-0.4,1.5l1.4,0.7
+				L34,67.8l0.8,0.3l0.8-0.3l14.3-6.6l14.3,6.6l0.8,0.3l0.8-0.3l5.8-2.7C70.4,64.4,69.5,63.4,68.8,62.3z M33.9,63.7l-12.1-5.6
+				l6.1-21.7l9.1,4.2L33.9,63.7z M48.7,57.7l-12.5,5.8l3-22.6l9.5-4.4V57.7z M50.9,57.7V36.4l9.5,4.4l3,22.6L50.9,57.7z"/>
+		</g>
+	</g>
+	<path fill="#231F20" d="M76.6,50.8c-3.9,0-7.1,3.2-7.1,7.1c0,2.7,1.5,5.1,3.8,6.3l1.4,3.1l1.9,4l1.9-4l1.4-3.1
+		c2.3-1.2,3.8-3.6,3.8-6.3C83.7,54,80.5,50.8,76.6,50.8z M76.6,60.4c-1.4,0-2.5-1.1-2.5-2.5c0-1.4,1.1-2.5,2.5-2.5
+		c1.4,0,2.5,1.1,2.5,2.5C79.1,59.3,78,60.4,76.6,60.4z"/>
+</g>
+<g id="Labels" display="none">
+	<rect y="82.7" display="inline" fill="none" width="97" height="15"/>
+	<text transform="matrix(1 0 0 1 21.79 91.835)" display="inline" font-family="'OpenSans'" font-size="12">map view</text>
+</g>
+</svg>

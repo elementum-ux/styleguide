@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 99 99" enable-background="new 0 0 99 99" xml:space="preserve">
+<g id="icons">
+	<g id="Ellipse_2_7_">
+		<g>
+			<path fill="#231F20" d="M50.1,27c-11,0-20,9-20,20c0,11,9,20,20,20c11,0,20-9,20-20C70.1,36,61.1,27,50.1,27z M52.3,65.1
+				c-10,1.2-19-5.8-20.3-15.8c-1.2-10,5.8-19,15.8-20.3c10-1.2,19,5.8,20.3,15.8C69.4,54.7,62.3,63.8,52.3,65.1z M51,37h-1.8v9.1
+				h-9.1v1.8h9.1V57H51v-9.1h9.1v-1.8H51V37z"/>
+		</g>
+	</g>
+</g>
+<g id="Labels" display="none">
+	<rect x="2" y="83" display="inline" fill="none" width="97" height="15"/>
+	<text transform="matrix(1 0 0 1 21.8184 92.1201)" display="inline" font-family="'OpenSans'" font-size="12">tap to add</text>
+</g>
+</svg>

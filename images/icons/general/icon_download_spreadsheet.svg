@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 99 99.1" enable-background="new 0 0 99 99.1" xml:space="preserve">
+<g id="icons">
+	<g>
+		<g>
+			<g>
+				<path d="M57.9,42.3c-0.9,0-1.6-0.7-1.6-1.6V30.7H40.7c-2.2,0-4,1.8-4,4v32c0,2.2,1.8,4,4,4H64c2.2,0,4-1.8,4-4V42.3H57.9z"/>
+			</g>
+			<path opacity="0.18" d="M57.8,42.3H68L56.3,30.7v10.2C56.4,41.6,57,42.3,57.8,42.3z"/>
+			<polygon opacity="0.27" fill="#FFFFFF" points="68,50.6 68,42.4 57.9,42.4 			"/>
+		</g>
+		<path fill="#FFFFFF" d="M54.6,53.1v13.3c0,0.2,0.2,0.4,0.5,0.4h2.2c0.3,0,0.5-0.2,0.5-0.4V53.1c0-0.2-0.2-0.4-0.5-0.4h-2.2
+			C54.8,52.7,54.6,52.9,54.6,53.1z"/>
+		<path fill="#FFFFFF" d="M61.3,57.2v9.3c0,0.2,0.2,0.3,0.5,0.3H64c0.3,0,0.5-0.1,0.5-0.3v-9.3c0-0.1-0.2-0.3-0.5-0.3h-2.2
+			C61.6,56.9,61.3,57,61.3,57.2z"/>
+		<path fill="#FFFFFF" d="M47.8,49v17.2c0,0.3,0.2,0.5,0.5,0.5h2.2c0.3,0,0.5-0.2,0.5-0.5V49c0-0.3-0.2-0.5-0.5-0.5h-2.2
+			C48.1,48.5,47.8,48.7,47.8,49z"/>
+		<path fill="#FFFFFF" d="M41.6,66.8h2.2c0.3,0,0.5-0.3,0.5-0.6V46c0-0.3-0.2-0.6-0.5-0.6h-2.2c-0.3,0-0.5,0.3-0.5,0.6v20.2
+			C41.1,66.5,41.3,66.8,41.6,66.8z"/>
+	</g>
+</g>
+<g id="Labels" display="none">
+	<rect x="2" y="82.9" display="inline" fill="none" width="97" height="15"/>
+	<text transform="matrix(1 0 0 1 15.4111 91.9776)" display="inline" font-family="'OpenSans'" font-size="12">download ss</text>
+</g>
+</svg>
