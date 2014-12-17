@@ -210,7 +210,7 @@ h1 {
 	line-height: 44px;
 	font-weight: 300;
 	font-style: normal;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	text-align:center;
 	position:relative;
 	letter-spacing: -0.02em;
@@ -226,7 +226,7 @@ h1.noSubtitle{
 	font-weight: 800;
 	font-size: 5em;
 	line-height:1em;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	padding:0.5em 0;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -236,7 +236,7 @@ h1.noSubtitle{
 	font-size: 3.21em;
 	font-weight: 800;
 	line-height:1.5em;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	padding:0.5em 0;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -249,7 +249,7 @@ h1.noSubtitle{
 	font-family: 'FuturaW01-MediumCondens', sans-serif;
 	padding-left: 0;
 	border: none;
-	text-transform: uppercase;
+	/*text-transform:uppercase;*/
 	text-align: center;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
