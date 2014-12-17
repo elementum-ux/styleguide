@@ -185,7 +185,7 @@ body {
 	font-size:14px;
 	line-height: 22px;
 	/*font-family: Open Sans, Helvetica, sans-serif;*/
-	font-family: Lato, Open Sans, Helvetica, sans-serif;
+	font-family: Montserrat, Open Sans, Helvetica, sans-serif;
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -197,13 +197,13 @@ h1 {
 	margin:0;
 	font-weight: 300;
 	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 h2, h3, h4, h5, h6, legend {
 	margin:0;
 	font-weight: 300;
 	/*font-family: 'Open Sans', sans-serif;*/
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 h1 {
 	font-size: 44px;
@@ -246,7 +246,8 @@ h1.noSubtitle{
 	line-height: 33px;
 	margin-bottom: 0;
 	font-weight: 300;
-	font-family: 'FuturaW01-MediumCondens', sans-serif;
+	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
 	padding-left: 0;
 	border: none;
 	/*text-transform:uppercase;*/
@@ -294,18 +295,19 @@ h3, legend {
 	font-size: 18px;
 	line-height: 22px;
 	margin-bottom: 14px;
-	font-family: 'FuturaW01-MediumCondens', sans-serif;
+	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	text-transform: uppercase;
+	/*text-transform:uppercase;*/
 }
 h4 {
 	font-size: 14px;
 	line-height: 22px;
 	margin-bottom: 6px;
 	font-style: bold;
-	font-family: Open Sans, Helvetica, sans-serif;
+	font-family: Montserrat, Open Sans, Helvetica, sans-serif;
 	font-weight:600;
-	text-transform: uppercase;
+	/*text-transform:uppercase;*/
 }
 h5 {
 	font-style: normal;
@@ -341,7 +343,7 @@ li {
 }
 a:link, a:visited {
 	text-decoration:none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 a:hover, a:active {
 	text-decoration:underline;
@@ -359,7 +361,7 @@ blockquote {
 	line-height: 33px;
 	margin-bottom:0;
 	font-weight:300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	padding:0;
 	border:none;
 	text-align:left;
