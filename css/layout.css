@@ -221,8 +221,7 @@ body {
 h1 {
 	margin:0;
 	font-weight: 300;
-	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
-	font-family: 'ProximaNova-Reg', sans-serif;
+	font-family: 'ProximaNova-Bold', sans-serif;
 }
 h2, h3, h4, h5, h6, legend {
 	margin:0;
@@ -272,7 +271,7 @@ h1.noSubtitle{
 	margin-bottom: 0;
 	font-weight: 300;
 	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
-	font-family: 'ProximaNova-Reg', sans-serif;
+	font-family: 'ProximaNova-Sbold', sans-serif;
 	padding-left: 0;
 	border: none;
 	/*text-transform:uppercase;*/
@@ -386,7 +385,7 @@ blockquote {
 	line-height: 33px;
 	margin-bottom:0;
 	font-weight:300;
-	font-family: 'ProximaNova-Reg', sans-serif;
+	font-family: 'ProximaNova-Sbold', sans-serif;
 	padding:0;
 	border:none;
 	text-align:left;
