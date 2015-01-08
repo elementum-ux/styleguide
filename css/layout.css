@@ -624,14 +624,14 @@ hr {
 .navbar-nav > li > a {
     display: block;
     font-size: 1.2em;
-    font-family: 'ProximaReg', sans-serif;
-    font-weight: 300;
+    font-family: 'ProximaBold', sans-serif;
+    /*font-weight: 300;*/
     margin: 0;
 	padding-top:11px;
 	padding-bottom:11px;
 	vertical-align:middle;
     text-decoration: none;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
