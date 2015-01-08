@@ -182,7 +182,7 @@ display:block;
 ================================================== */
 
 @font-face {
-font-family: 'ProximaReg';
+font-family: 'ProximaNova-Reg';
 src: url('fonts/ProximaNova-Reg.ttf')  format('truetype');
 }
 
@@ -210,7 +210,7 @@ body {
 	font-size:14px;
 	line-height: 22px;
 	/*font-family: Open Sans, Helvetica, sans-serif;*/
-	font-family: ProximaReg, Open Sans, Helvetica, sans-serif;
+	font-family: ProximaNova-Reg, Open Sans, Helvetica, sans-serif;
 	font-weight: 500;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -222,13 +222,13 @@ h1 {
 	margin:0;
 	font-weight: 300;
 	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
-	font-family: 'ProximaReg', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 }
 h2, h3, h4, h5, h6, legend {
 	margin:0;
 	font-weight: 300;
 	/*font-family: 'Open Sans', sans-serif;*/
-	font-family: 'ProximaReg', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 }
 h1 {
 	font-size: 44px;
@@ -272,7 +272,7 @@ h1.noSubtitle{
 	margin-bottom: 0;
 	font-weight: 300;
 	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
-	font-family: 'ProximaReg', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 	padding-left: 0;
 	border: none;
 	/*text-transform:uppercase;*/
@@ -321,7 +321,7 @@ h3, legend {
 	line-height: 22px;
 	margin-bottom: 14px;
 	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
-	font-family: 'ProximaReg', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 	font-weight: 300;
 	/*text-transform:uppercase;*/
 }
@@ -330,7 +330,7 @@ h4 {
 	line-height: 22px;
 	margin-bottom: 6px;
 	font-style: bold;
-	font-family: ProximaReg, Open Sans, Helvetica, sans-serif;
+	font-family: ProximaNova-Reg, Open Sans, Helvetica, sans-serif;
 	font-weight:600;
 	/*text-transform:uppercase;*/
 }
@@ -368,7 +368,7 @@ li {
 }
 a:link, a:visited {
 	text-decoration:none;
-	font-family: 'ProximaReg', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 }
 a:hover, a:active {
 	text-decoration:underline;
@@ -386,7 +386,7 @@ blockquote {
 	line-height: 33px;
 	margin-bottom:0;
 	font-weight:300;
-	font-family: 'ProximaReg', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 	padding:0;
 	border:none;
 	text-align:left;
