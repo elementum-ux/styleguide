@@ -1,0 +1,48 @@
+.peIsotopeGrid .peIsotopeItem a {
+	position: relative;
+	display: block;
+}
+
+.peIsotopeGrid .peIsotopeItem .frame {
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	position: absolute; 
+	z-index: 1;
+	left: 0px; 
+	right: 0px; 
+	top: 0px; 
+	bottom: 0px 
+}
+
+.peIsotopeGrid .peIsotopeItem.grid-first-col .frame {
+	border-left: none;
+}
+
+.peIsotopeGrid .peIsotopeItem.grid-last-col .frame {
+	border-right: none;
+}
+
+.peIsotopeGrid .peIsotopeItem.grid-first-row .frame {
+	border-top: none;
+}
+
+.peIsotopeGrid .peIsotopeItem.grid-last-row .frame {
+	border-bottom: none;
+}
+
+.peIsotopeGrid .peIsotopeItem .scalable {
+	overflow: hidden;
+}
+
+.peIsotopeGrid .peIsotopeItem.isotope-item .scalable img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.peIsotopeGrid .peIsotopeItem {
+	float: left;
+}
+
+.peIsotopeGrid .peIsotopeItem.isotope-item {
+	float: none;
+}
