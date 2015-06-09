@@ -149,6 +149,34 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-color:#F25316;
 }
 
+.datablue {
+	background-color:#7BC2E0;
+}
+
+.datagreen {
+	background-color:#76BF81;
+}
+
+.datadarkblue {
+	background-color:#07557A;
+}
+
+.datapurple {
+	background-color:#AB6396;
+}
+
+.datagold {
+	background-color:#DCAF57;
+}
+
+.datared {
+	background-color:#E96255;
+}
+
+.datayellow {
+	background-color:#FEC913;
+}
+
 /* END COLOR BOXES
 
 ================================================== */
