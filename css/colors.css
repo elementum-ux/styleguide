@@ -118,35 +118,59 @@ h2.subTitle:after, h1.noSubtitle:after{
 
 
 .teal1 {
-	background-color:#05373F;
-}
-
-.teal2 {
 	background-color:#41788F;
 }
 
-.teal3 {
+.teal2 {
 	background-color:#1B9EBC;
 }
 
-.teal4 {
-	background-color:#18DFFF;
+.teal3 {
+	background-color:#3E4A55;
 }
 
-.ltGray {
+.teal3b {
+	background-color:#4A5762;
+}
+
+.black {
+	background-color:#121212;
+}
+
+.blackb {
+	background-color:#282424;
+}
+
+.grey1 {
 	background-color:#CCCCCC;
 }
 
-.medGray {
+.grey1b {
+	background-color:#f1f1f1;
+}
+
+.grey2 {
 	background-color:#909090;
 }
 
-.dkGray {
+.grey2b {
+	background-color:#AFAFAF;
+}
+
+.grey3 {
 	background-color:#484949;
 }
 
+.grey3b {
+	background-color:#6D6D6D;
+}
+
 .orange {
-	background-color:#F25316;
+	background-color:#FA9A50;
+}
+
+.orangeb {
+	background-color:#FEE8D6;
 }
 
 .datablue {
