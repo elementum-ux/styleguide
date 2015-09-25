@@ -121,7 +121,7 @@ var ParticleNet = function($canvas){
     'use strict';
 
     var particleSpeed = 2.5,
-        mouseRadius = 300,
+        mouseRadius = 200,
         particleRadius = 100,
         mouseLive = 1;
 
@@ -170,7 +170,7 @@ var ParticleNet = function($canvas){
     var initCanvas = function(){
         width = $canvas.width = window.innerWidth;
         height = $canvas.height = window.innerHeight;
-        generateParticles(width * height / 3000 );
+        generateParticles(width * height / 4000 );
 
     };
 
@@ -205,8 +205,8 @@ var ParticleNet = function($canvas){
             y = Math.random() * window.innerHeight;
 
             var particle = new Particle(x, y);
-            particle.velocity.x = Math.random() -0.8;
-            particle.velocity.y = Math.random() -0.8;
+            particle.velocity.x = Math.random() -0.5;
+            particle.velocity.y = Math.random() -0.5;
             particle.velocity.nor();
             particle.speed = particleSpeed;
             particles.push(particle);
@@ -222,7 +222,7 @@ var ParticleNet = function($canvas){
             particle = particles[i];
             context.fillStyle = 'rgba(255, 255, 255, ' +particle.jointAlpha.toPrecision(3) + ')';
             context.strokeStyle = 'rgba(255, 255, 255, ' + particle.linkAlpha.toPrecision(3) + ')';
-            context.fillRect(particle.position.x, particle.position.y, 2, 2);
+            context.fillRect(particle.position.x, particle.position.y, 3, 3);
 
 
             for(y = 0; y < particle.childs.length; y++){
@@ -293,7 +293,7 @@ var ParticleNet = function($canvas){
             p2.linked = true;
             p1.addChild(p2);
 
-            p1.linkAlpha += 0.02;
+            p1.linkAlpha += 0.01;
             p1.jointAlpha += 0.02;
 
         } else {
