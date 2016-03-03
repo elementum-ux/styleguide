@@ -9553,8 +9553,8 @@ html, body {
 }
 
 .pldoc-tab-label .pldoc-link.is-active {
-  border-bottom-color: #4d4b4b;
-  color: #4d4b4b;
+  border-bottom-color: #1B9EBC;
+  color: #1B9EBC;
 }
 
 .pldoc-pattern-markup code {
