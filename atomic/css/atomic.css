@@ -310,56 +310,56 @@
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/OpenSans/OpenSans-Light-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Light-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: italic;
   font-weight: 300;
   src: url("../fonts/OpenSans/OpenSans-LightItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-LightItalic-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-LightItalic-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/OpenSans/OpenSans-Regular-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Regular-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: italic;
   font-weight: 400;
   src: url("../fonts/OpenSans/OpenSans-Italic-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Italic-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Italic-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/OpenSans/OpenSans-Semibold-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Semibold-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: italic;
   font-weight: 600;
   src: url("../fonts/OpenSans/OpenSans-SemiboldItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-SemiboldItalic-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/OpenSans/OpenSans-Bold-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-Bold-webfont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "ProximaNova-Reg";
   font-style: italic;
   font-weight: 700;
   src: url("../fonts/OpenSans/OpenSans-BoldItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans/OpenSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans/OpenSans-BoldItalic-webfont.ttf") format("truetype");
@@ -923,7 +923,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #4d4b4b;
   font-size: 1rem;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ProximaNova-Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p,
@@ -8203,7 +8203,7 @@ Note: sure .FONT_NAME comes first for adjoining classes bug in IE7.
 .edx-icons .icon {
   height: auto;
   width: auto;
-  font-family: "edx-icons", "Open Sans", sans-serif;
+  font-family: "edx-icons", "ProximaNova-Reg", sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
