@@ -1702,7 +1702,7 @@ dd,
   border: 1px solid #e7e6e6;
   background: #fcfcfc;
   font-size: 1rem;
-  color: #4A5762;
+  color: #34383a;
 }
 
 .field-input::-webkit-input-placeholder,
@@ -1742,7 +1742,7 @@ dd,
 .field-textarea:focus,
 .field-textarea.is-active {
   border-color: #0ea6ec;
-  color: #4A5762;
+  color: #34383a;
   outline: none;
 }
 
@@ -8110,7 +8110,7 @@ dd,
 }
 
 .depth--3, .pldoc-wrapper-content-supplemental {
-  background: #4A5762;
+  background: #34383a;
 }
 
 .depth--2 {
@@ -8122,7 +8122,7 @@ dd,
 }
 
 body, .zebra-stripe > *:nth-child(odd), .depth-0, .pldoc, .pldoc-wrapper-content-main {
-  background: #F1F1F1;
+  background: #eef1f2;
 }
 
 .slat, .zebra-stripe > *:nth-child(even), .depth-1, .pldoc-view-example .pldoc-wrapper-view-header {
@@ -9157,7 +9157,7 @@ Note: sure .FONT_NAME comes first for adjoining classes bug in IE7.
   border-top-right-radius: 0;
   padding: 1.25rem 1.25rem;
   overflow: auto;
-  box-shadow: 0 0.125rem 0.125rem 0 #F1F1F1;
+  box-shadow: 0 0.125rem 0.125rem 0 #eef1f2;
 }
 
 .alert-icon {
@@ -9308,7 +9308,7 @@ html, body {
 
 .badge-ui-toolkit {
   background-color: #ffde20;
-  color: #4A5762;
+  color: #34383a;
 }
 
 @media (min-width: 1024px) {
@@ -9702,7 +9702,7 @@ html, body {
 }
 
 .pldoc-pattern-colors .grayscale-cool.xx-light {
-  background: #F1F1F1;
+  background: #eef1f2;
 }
 
 .pldoc-pattern-colors .grayscale-cool.dark {
@@ -9710,7 +9710,7 @@ html, body {
 }
 
 .pldoc-pattern-colors .grayscale-cool.x-dark {
-  background: #4A5762;
+  background: #34383a;
 }
 
 .pldoc-pattern-colors .grayscale-cool.trans {
