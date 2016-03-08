@@ -65,7 +65,7 @@ src: url('../../fonts/ProximaNova-Thin.ttf')  format('truetype');
 .issueID {
 
 	font-size: .7em;
-	font-family: 'ProximaNova', Open Sans, Helvetica, sans-serif;
+	font-family: 'ProximaNova-Reg', Open Sans, Helvetica, sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 1);
@@ -77,8 +77,8 @@ src: url('../../fonts/ProximaNova-Thin.ttf')  format('truetype');
 .sevID {
 
 	font-size: .7em;
-	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
-	font-weight: 700;
+	font-family: 'ProximaNova-Reg', Open Sans, Helvetica, sans-serif;
+	font-weight: 500;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 1);
 	float:right;
@@ -125,7 +125,7 @@ a {
 h1 {
 
 	font-size: 1.8em;
-	font-family: 'ProximaNova', Open Sans, Helvetica, sans-serif;
+	font-family: 'ProximaNova-Reg', Open Sans, Helvetica, sans-serif;
 	font-weight: 500;
 	line-height: 1em;
 	color: #484949;
@@ -136,7 +136,7 @@ h1 {
 h2 {
 
 	font-size: 2.4em;
-	font-family: 'ProximaNova', Open Sans, Helvetica, sans-serif;
+	font-family: 'ProximaNova-Sbold', Open Sans, Helvetica, sans-serif;
 	font-weight: 300;
 	line-height: .5em;
 	color: #484949;
@@ -147,7 +147,7 @@ h2 {
 h3 {
 
 	font-size: 1em;
-	font-family: 'ProximaNova', Open Sans, Helvetica, sans-serif;
+	font-family: 'ProximaNova-Reg', Open Sans, Helvetica, sans-serif;
 	font-weight: 500;
 	line-height: 1em;
 	/*text-transform: uppercase;*/
@@ -169,7 +169,7 @@ h3 {
 p {
 
 	font-size: .9em;
-	font-family: 'ProximaNova', Open Sans, Helvetica, sans-serif;
+	font-family: 'ProximaNova-Light', Open Sans, Helvetica, sans-serif;
 	font-weight: 300;
 	line-height: .2em;
 	color: #484949;
