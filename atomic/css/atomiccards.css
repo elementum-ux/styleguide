@@ -1,0 +1,176 @@
+body {
+background-color: #f1f1f1;
+margin: .75em;
+}
+
+
+.atomicCard {
+    position: relative;
+	text-align: center;
+	height: auto;
+	max-width: 465px;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	background-color: #fff;
+
+	-webkit-box-shadow: 2px 2px 5px 2px #dadada; 
+  -moz-box-shadow:    2px 2px 5px 2px #dadada;  
+  box-shadow:         2px 2px 5px 2px #dadada;
+  }
+
+.med {
+	height: auto;
+}
+
+.indicatorShort {
+	height: 1em;
+	margin: 0;
+	border-radius: 2px 2px 0 0;
+	
+}
+
+.indicatorExpand {
+	height: 2.2em;
+	margin: 0;
+	border-radius: 2px 2px 0 0;
+	
+}
+
+.sevHigh {
+	background-color: #ef2438;
+}
+
+.sevMed {
+	background-color: #f7b908;
+}
+
+.sevLow {
+	background-color: #1b9ebc;
+}
+
+.sevUnk {
+	background-color: #cccccc;
+}
+
+.issueID {
+
+	font-size: .7em;
+	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+	float:left;
+	padding-top: 1em;
+	margin-left: 2em;
+}
+
+.sevID {
+
+	font-size: .7em;
+	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+	float:right;
+	padding-top: 1em;
+	margin-right: 2em;
+}
+
+.artShort {
+	height: 2.5em;
+	position: relative;
+	text-align: center;
+	max-width: 465px;
+	background-image: url(../img/cardart.jpg);
+	background-position: fixed;
+	background-size: 100%;
+}
+
+.artShort2 {
+	height: 2.5em;
+	position: relative;
+	text-align: center;
+	max-width: 465px;
+	background-image: url(../img/cardart2.jpg);
+	background-position: fixed;
+	background-size: 100%;
+}
+
+.artExpand {
+	height: 17em;
+	position: relative;
+	text-align: center;
+	max-width: 465px;
+	background-image: url(../img/cardart.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: 100%;
+}
+
+a {
+	color: #1b9ebc;
+	text-decoration: none;
+}
+
+h1 {
+
+	font-size: 1.8em;
+	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
+	font-weight: 500;
+	line-height: 1em;
+	color: #484949;
+	text-align: center;
+	margin: .5em;
+}
+
+h2 {
+
+	font-size: 2.4em;
+	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: .5em;
+	color: #484949;
+	text-align: center;
+	margin: .9em 0 .5em 0;
+}
+
+h3 {
+
+	font-size: 1em;
+	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
+	font-weight: 500;
+	line-height: 1em;
+	/*text-transform: uppercase;*/
+	color: #6D6D6D;
+	text-align: center;
+	margin: .5em;
+}
+
+.left {
+	float:left;
+	margin-left: 1.5em;
+}
+
+.right {
+	float:right;
+	margin-right: 1.5em;
+}
+
+p {
+
+	font-size: .9em;
+	font-family: 'Proxima Nova', Open Sans, Helvetica, sans-serif;
+	font-weight: 300;
+	line-height: .2em;
+	color: #484949;
+	text-align: center;
+	margin: .5em;
+}
+
+hr {
+	background:#e0e0e0;
+	border: 0;
+	height: 1px;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+}
