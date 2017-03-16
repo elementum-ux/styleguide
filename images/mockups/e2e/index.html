@@ -77,7 +77,8 @@ html, body {
 #carousel-5:checked ~ .control-5,
 #carousel-6:checked ~ .control-6,
 #carousel-7:checked ~ .control-7,
-#carousel-8:checked ~ .control-8 {
+#carousel-8:checked ~ .control-8,
+#carousel-9:checked ~ .control-9 {
     display: block;
 }
 
@@ -116,7 +117,8 @@ html, body {
 #carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
 #carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet,
 #carousel-7:checked ~ .control-7 ~ .carousel-indicators li:nth-child(7) .carousel-bullet,
-#carousel-8:checked ~ .control-8 ~ .carousel-indicators li:nth-child(8) .carousel-bullet {
+#carousel-8:checked ~ .control-8 ~ .carousel-indicators li:nth-child(8) .carousel-bullet,
+#carousel-9:checked ~ .control-9 ~ .carousel-indicators li:nth-child(9) .carousel-bullet  {
     color: #428bca;
 }
 
@@ -169,7 +171,11 @@ html, body {
         <div class="carousel-item">
             <img src="supplychain_illustration_incontextV8-8.jpg">
         </div>
-        <label for="carousel-8" class="carousel-control prev control-1"><img src="lt_arrow.png" border="0"></label>
+        <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+            <img src="supplychain_illustration_incontextV8-9.jpg">
+        </div>
+        <label for="carousel-9" class="carousel-control prev control-1"><img src="lt_arrow.png" border="0"></label>
         <label for="carousel-2" class="carousel-control next control-1"><img src="rt_arrow.png" border="0"></label>
         <label for="carousel-1" class="carousel-control prev control-2"><img src="lt_arrow.png" border="0"></label>
         <label for="carousel-3" class="carousel-control next control-2"><img src="rt_arrow.png" border="0"></label>
@@ -184,7 +190,9 @@ html, body {
         <label for="carousel-6" class="carousel-control prev control-7"><img src="lt_arrow.png" border="0"></label>
         <label for="carousel-8" class="carousel-control next control-7"><img src="rt_arrow.png" border="0"></label>
         <label for="carousel-7" class="carousel-control prev control-8"><img src="lt_arrow.png" border="0"></label>
-        <label for="carousel-1" class="carousel-control next control-8"><img src="rt_arrow.png" border="0"></label>
+        <label for="carousel-9" class="carousel-control next control-8"><img src="rt_arrow.png" border="0"></label>
+        <label for="carousel-8" class="carousel-control prev control-9"><img src="lt_arrow.png" border="0"></label>
+        <label for="carousel-1" class="carousel-control next control-9"><img src="rt_arrow.png" border="0"></label>
         <!--<ol class="carousel-indicators">
             <li>
                 <label for="carousel-1" class="carousel-bullet">&nbsp;</label>
