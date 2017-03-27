@@ -1,0 +1,21 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background:radial-gradient(ellipse farthest-side at 35% -16%,#4bc4e1 0,#3db9d6 12.97%,#1b9ebc 36.11%,#05557a 100%),url(../background_nodes.png);background-size:129vw 100vh,cover;background-repeat:no-repeat;
+}
+
+canvas {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+canvas div {
+  background-color: transparent;
+}
+
+#scene {
+  /*background-color: #1B9EBC;*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}

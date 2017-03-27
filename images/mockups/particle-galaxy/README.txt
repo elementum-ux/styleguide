@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/sschepis/pen/ErFen.
+
+ An endless stream of particles pop in and out of existence as they are irresistibly  drawn to the black hole in the middle - and to each other. This pen is part of my current exploration of particle systems and gravity. I plan to recreate this design in three dimensions using three.js next - I aim to create my own mini-universe sim one day.
