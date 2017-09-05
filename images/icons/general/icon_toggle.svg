@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 99 99.1" enable-background="new 0 0 99 99.1" xml:space="preserve">
+<g id="icons">
+	<g>
+		<path d="M72.3,51.5c0,6.7-5.4,12.2-12.2,12.2H44.5c-6.7,0-12.2-5.4-12.2-12.2s5.4-12.2,12.2-12.2h15.7
+			C66.9,39.3,72.3,44.7,72.3,51.5z"/>
+		<g>
+			
+				<image overflow="visible" opacity="0.35" width="190" height="190" xlink:href="7126CE2C8644FB2C.png"  transform="matrix(0.24 0 0 0.24 37.8861 30.9795)">
+			</image>
+			<g>
+				<circle fill="#FFFFFF" cx="60.6" cy="51.1" r="11"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Labels" display="none">
+	<rect x="1" y="83.9" display="inline" fill="none" width="97" height="15"/>
+	<text transform="matrix(1 0 0 1 13.5381 92.9776)" display="inline" font-family="'OpenSans'" font-size="12">toggle on/off</text>
+</g>
+</svg>

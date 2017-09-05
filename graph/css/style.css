@@ -1,0 +1,24 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url(../img/bg.jpg);
+}
+
+
+
+.particle-net {
+  /*background-color: #1B9EBC;*/
+  padding: 0;
+  margin: 0;
+}  
+
+
+.logo {
+  position: relative;
+  top: 44%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

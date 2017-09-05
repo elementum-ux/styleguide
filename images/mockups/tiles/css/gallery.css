@@ -1,0 +1,49 @@
+
+    /*image gallery css*/
+
+    .feat-project-viewer{
+        position:relative;
+        background:transparent;
+    }
+	
+    .feat-project-viewer > div {
+        float:left;
+    }
+
+    .feat-project-viewer .feat-images{
+		margin-left:0 !important;
+		width:59.5744681% !important;
+    }
+    
+    .feat-project-viewer .image-browser{
+        margin-left:0;
+    }
+    
+    .feat-project-viewer .image-browser a{
+        margin:0;
+        padding:0;
+		float:left;
+		width:186px;
+		margin-right:4px;
+		margin-bottom:4px;
+		height:auto;
+		position:relative;
+    }
+	
+	.feat-project-viewer .image-browser a:hover{
+		outline:1px solid #222222;
+	}
+    
+    /* CONDITIONAL STYLES FOR IE9 */
+    .ie10 .feat-project-viewer .image-browser a,
+    .ie9 .feat-project-viewer .image-browser a,
+	.ie8 .feat-project-viewer .image-browser a{
+		width:185px;
+	}
+	
+    .ie10 .feat-project-viewer,
+	.ie9 .feat-project-viewer,
+	.ie8 .feat-project-viewer{
+		height:351px;
+	}
+    

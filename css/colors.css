@@ -61,17 +61,34 @@ h2.subTitle:after, h1.noSubtitle:after{
 .paralaxText blockquote:before, .paralaxText blockquote:after {
 	color:#fff;
 }
-#home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
-	background-color:#1cbbda;
+#home {
+	background-color:#1BA8C6;
+}
+#paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
+	background-color:#000;
 }
 #home {
 	background-image:url('../images/theme-pics/paralax-blue-3.jpg');
+}
+#sitrm {
+	background-image:url('../images/theme-pics/bg-sitrm.jpg');
+	max-width: 1140px;
+	min-height: 300px;
 }
 #paralaxSlice1 {
 	background-image: url('../images/theme-pics/paralax-1.jpg');
 }
 #paralaxSlice2 {
 	background-image: url('../images/theme-pics/paralax-blue-2.jpg');
+}
+#paralaxSliceSR {
+	background-image: url('../images/theme-pics/paralax-sr.jpg');
+}
+#paralaxSliceMobile {
+	background-image: url('../images/theme-pics/paralax-mobile.jpg');
+}
+#paralaxSliceWeb {
+	background-image: url('../images/theme-pics/paralax-web.jpg');
 }
 #paralaxSlice3 {
 	background-image: url('../images/theme-pics/paralax-blue-3.jpg');
@@ -80,10 +97,13 @@ h2.subTitle:after, h1.noSubtitle:after{
 	background-image: url('../images/theme-pics/paralax-4.jpg');
 }
 #paralaxIX1 {
-	background-image: url('../images/theme-pics/paralax-grey-2.jpg');
+	background-image: url('../images/theme-pics/paralax-perspective.jpg');
 }
 #paralaxIX2 {
-	background-image: url('../images/theme-pics/paralax-grey-3.jpg');
+	background-image: url('../images/theme-pics/paralax-transport.jpg');
+}
+#paralaxIX3 {
+	background-image: url('../images/theme-pics/paralax-exposure.jpg');
 }
 .paralaxText blockquote, .paralaxText h1, .paralaxText h2, .paralaxText h3, .paralaxText p, .paralaxText i{
 	color:#fff;
@@ -98,35 +118,115 @@ h2.subTitle:after, h1.noSubtitle:after{
 
 
 .teal1 {
-	background-color:#05373F;
-}
-
-.teal2 {
 	background-color:#41788F;
 }
 
-.teal3 {
+.teal2 {
 	background-color:#1B9EBC;
 }
 
-.teal4 {
-	background-color:#18DFFF;
+.teal3 {
+	background-color:#3E4A55;
 }
 
-.ltGray {
+.teal3b {
+	background-color:#4A5762;
+}
+
+.black {
+	background-color:#121212;
+}
+
+.blackb {
+	background-color:#282424;
+}
+
+.grey1 {
 	background-color:#CCCCCC;
 }
 
-.medGray {
+.grey1b {
+	background-color:#f1f1f1;
+}
+
+.grey2 {
 	background-color:#909090;
 }
 
-.dkGray {
+.grey2b {
+	background-color:#AFAFAF;
+}
+
+.grey3 {
 	background-color:#484949;
 }
 
+.grey3b {
+	background-color:#6D6D6D;
+}
+
 .orange {
-	background-color:#F25316;
+	background-color:#FA9A50;
+}
+
+.orangeb {
+	background-color:#FEE8D6;
+}
+
+.datablue {
+	background-color:#7BC2E0;
+}
+
+.datagreen {
+	background-color:#76BF81;
+}
+
+.datadarkblue {
+	background-color:#07557A;
+}
+
+.datapurple {
+	background-color:#AB6396;
+}
+
+.datagold {
+	background-color:#DCAF57;
+}
+
+.datared {
+	background-color:#E96255;
+}
+
+.datayellow {
+	background-color:#FEC913;
+}
+
+.datablue2 {
+	background-color:#DFF0F7;
+}
+
+.datagreen2 {
+	background-color:#DDEFE0;
+}
+
+.datadarkblue2 {
+	background-color:#C3D5DD;
+}
+
+.datapurple2 {
+	background-color:#EAD8E4;
+}
+
+.datagold2 {
+	background-color:#F6EBD7;
+}
+
+.datared2 {
+	background-color:#F9D8D5;
+}
+
+.datayellow2 {
+	background-color:#FEF1CC;
 }
 
 /* END COLOR BOXES
@@ -153,14 +253,27 @@ ul.iconsList li a:hover, ul.iconsList i {
 .btn {
 	background:#1cbbda;
 	color:#fff;
-	border:2px solid #fff;
+	border:0px solid #fff;
 }
+
 .btn:hover {
-	color:#1cbbda;
+	color:#fff;
 	border-color:#eee;
 	text-shadow:none;
-	background:#fff
+	background:#05373f
 }
+
+.btn-secondary {
+	background:#959595;
+	color:#fff;
+	border:0px solid #fff;
+}
+
+.btn-secondary:hover {
+	background:#484949;
+	color:#fff;
+}
+
 .btn-primary {
 	background: #006dcc;
 }
@@ -189,6 +302,11 @@ ul.iconsList li a:hover, ul.iconsList i {
 }
 .btnWrapper {
 	border:1px solid #ccc;
+}
+
+.disabled {
+	color: #9a9a9a;
+	background: #c5c3c3;
 }
 
 /* END LINKS AND BUTTONS
@@ -442,6 +560,34 @@ border:none}
 }
 
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
+	background:#fff;
+}
+
+/*color5*/
+.color5, .slice.color5, .bulle.color5, .ctaBox.color5{
+	background-color:#F25316;
+	color:#fff;
+}
+
+.color5 h1, .color5 h2, .color5 h3, .color5 h4, .color5 blockquote, .color5 a {
+	color:#fff;
+}
+
+.color5 h2.subTitle:after, .color5 h1.noSubtitle:after {
+	background:#fff;
+}
+
+/*color6*/
+.color6, .slice.color6, .bulle.color6, .ctaBox.color6{
+	background-color:#2ECB7F;
+	color:#fff;
+}
+
+.color6 h1, .color6 h2, .color6 h3, .color6 h4, .color6 blockquote, .color6 a {
+	color:#fff;
+}
+
+.color6 h2.subTitle:after, .color6 h1.noSubtitle:after {
 	background:#fff;
 }
 

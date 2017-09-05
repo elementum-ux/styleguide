@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elements - Elementum-Branded Map</title>
+        
+        <style type="text/css">
+            body {
+            	background-color: #000000;
+            }
+            #map {
+                width: 1400px;
+                height: 1000px;
+            }
+        </style>
+        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        
+        <script type="text/javascript">
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                var mapOptions = {
+                    zoom: 4,
+                    panControl:true,
+                    zoomControl:true,
+                    mapTypeControl:false,
+                    scaleControl:false,
+                    streetViewControl:false,
+                    overviewMapControl:true,
+                    rotateControl:true,
+                    center: new google.maps.LatLng(29.7604, -95.3630556), // Houston
+
+                    // Elementum Map Styles
+                    styles: [{"featureType":"all","elementType":"labels.text","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#000000"},{"lightness":13}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#143542"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#144b53"},{"lightness":14},{"weight":1.4}]},{"featureType":"administrative","elementType":"labels.text","stylers":[{"color":"#ffffff"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"lightness":"100"},{"color":"#000000"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"weight":"0.50"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"weight":"0.50"}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#08304b"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#143542"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#143542"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#0c4152"},{"lightness":5}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"color":"#143542"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#0b434f"},{"lightness":25}]},{"featureType":"road.highway","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#0b3d51"},{"lightness":16}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"transit","elementType":"all","stylers":[{"color":"#146474"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#191f24"}]}]
+                };
+
+                var mapElement = document.getElementById('map');
+
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                
+            }
+        </script>
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>

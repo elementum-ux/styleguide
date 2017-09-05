@@ -23,6 +23,7 @@ Description: layout styles
 #PORTFOLIO
 #FORMS
 #MISCELANIOUS
+#FIXSHIT
 
 */
 
@@ -181,11 +182,21 @@ display:block;
 /* TYPOGRAPHY
 ================================================== */
 
+@font-face {
+font-family: 'ProximaNova';
+src: url('fonts/ProximaNova-Reg.ttf')  format('truetype');
+src: url('fonts/ProximaNova-Bold.ttf')  format('truetype');
+src: url('fonts/ProximaNova-Light.ttf')  format('truetype');
+src: url('fonts/ProximaNova-Sbold.ttf')  format('truetype');
+src: url('fonts/ProximaNova-Thin.ttf')  format('truetype');
+}
+
 body {
 	font-size:14px;
 	line-height: 22px;
-	font-family: Open Sans, Helvetica, sans-serif;
-	font-weight: 300;
+	/*font-family: Open Sans, Helvetica, sans-serif;*/
+	font-family: 'ProximaNova-Reg', Open Sans, Helvetica, sans-serif;
+	font-weight: 500;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	margin: 0;
@@ -195,19 +206,20 @@ body {
 h1 {
 	margin:0;
 	font-weight: 300;
-	font-family: 'FuturaW01-MediumCondens', sans-serif;
+	font-family: 'ProximaNova-Semibold', sans-serif;
 }
 h2, h3, h4, h5, h6, legend {
 	margin:0;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'ProximaNova-Reg', sans-serif;
 }
 h1 {
 	font-size: 44px;
 	line-height: 44px;
 	font-weight: 300;
 	font-style: normal;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	text-align:center;
 	position:relative;
 	letter-spacing: -0.02em;
@@ -223,7 +235,7 @@ h1.noSubtitle{
 	font-weight: 800;
 	font-size: 5em;
 	line-height:1em;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	padding:0.5em 0;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -233,7 +245,7 @@ h1.noSubtitle{
 	font-size: 3.21em;
 	font-weight: 800;
 	line-height:1.5em;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	padding:0.5em 0;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -243,10 +255,11 @@ h1.noSubtitle{
 	line-height: 33px;
 	margin-bottom: 0;
 	font-weight: 300;
-	font-family: 'FuturaW01-MediumCondens', sans-serif;
+	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
+	font-family: 'ProximaNova-bold', sans-serif;
 	padding-left: 0;
 	border: none;
-	text-transform: uppercase;
+	/*text-transform:uppercase;*/
 	text-align: center;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -291,18 +304,19 @@ h3, legend {
 	font-size: 18px;
 	line-height: 22px;
 	margin-bottom: 14px;
-	font-family: 'FuturaW01-MediumCondens', sans-serif;
+	/*font-family: 'FuturaW01-MediumCondens', sans-serif;*/
+	font-family: 'ProximaNova-bold', sans-serif;
 	font-weight: 300;
-	text-transform: uppercase;
+	/*text-transform:uppercase;*/
 }
 h4 {
 	font-size: 14px;
 	line-height: 22px;
 	margin-bottom: 6px;
 	font-style: bold;
-	font-family: Open Sans, Helvetica, sans-serif;
+	font-family: ProximaNova-Reg, Open Sans, Helvetica, sans-serif;
 	font-weight:600;
-	text-transform: uppercase;
+	/*text-transform:uppercase;*/
 }
 h5 {
 	font-style: normal;
@@ -338,7 +352,7 @@ li {
 }
 a:link, a:visited {
 	text-decoration:none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ProximaNova-Reg', sans-serif;
 }
 a:hover, a:active {
 	text-decoration:underline;
@@ -356,7 +370,7 @@ blockquote {
 	line-height: 33px;
 	margin-bottom:0;
 	font-weight:300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ProximaNova-Sbold', sans-serif;
 	padding:0;
 	border:none;
 	text-align:left;
@@ -416,23 +430,37 @@ hr {
 
 /*** buttons ***/
 .btn {
-	text-transform:uppercase;
-	padding:15px 20px;
-	font-size:18px;
+	/*text-transform:uppercase;*/
+	font-weight:600;
+	padding:10px 45px;
+	font-size:14px;
 	 -webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	-ms-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 	}
+
+.btn-secondary {
+	/*text-transform:uppercase;*/
+	font-weight:600;
+	padding:10px 45px;
+	font-size:14px;
+	 -webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	}
+
 .btn-lg {
 	padding:18px 23px;
 	font-size:22px;
 }
 .btn-sm {
-	padding:10px 13px;
+	padding:10px 30px;
 	font-size:12px;
-	border-radius:4px;
+	/*border-radius:4px;*/
 }
 .btn-xs {
 	padding:4px 7px;
@@ -580,8 +608,8 @@ hr {
 .navbar-nav > li > a {
     display: block;
     font-size: 1.2em;
-    font-family: 'FuturaW01-MediumCondens', sans-serif;
-    font-weight: 300;
+    font-family: 'ProximaNova-Bold', sans-serif;
+    /*font-weight: 300;*/
     margin: 0;
 	padding-top:11px;
 	padding-bottom:11px;
@@ -778,7 +806,7 @@ margin-bottom:-44px;
 }
 
 @media(min-width:1200px){
-	#flexHome h1 {font-size: 100px;}
+	#flexHome h1 {font-size: 80px;}
 	#flexHome {
 		margin-top:88px;
 		}
@@ -1036,6 +1064,7 @@ body#comingSoon{padding-top:0; background: #4B4A4A}
 
 /* END MISCELANIOUS
 ================================================== */
+
 
 /*
 CUSTOM CODE ADAPTED FROM CODE FOR AMERICA STYLE GUIDE
